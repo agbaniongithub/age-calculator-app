@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Age Calculator App</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="body-container">
+  <main class="main-container">
+    <div class="flex-input">
+      <div class="input-container">
+        <span class="error1">DAY</span>
+        <input type="number" name="" id="day" placeholder="DD">
+        <small class="error-day"></small>
+      </div>
+      <div class="input-container">
+        <span class="error2">MONTH</span>
+        <input type="number" name="" id="month" placeholder="MM">
+        <small class="error-month"></small>
+      </div>
+      <div class="input-container">
+        <span class="error3">YEAR</span>
+        <input type="number" name="" id="year" placeholder="YYYY">
+        <small class="error-year"></small>
+      </div>
+
+      
+    </div>
+    <button class="submit-btn">
+      <img src="./assets/images/icon-arrow.svg" alt="Arrow Icon">
+    </button>
+    <div class="output">
+      <h2><span class="output-year">--</span>years</h2>
+      <h2><span class="output-month">--</span>months</h2>
+      <h2><span class="output-day">--</span>days</h2>
+
+    </div>
+  
+  </main>
+
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+<script src="./index.js"></script>
+</body>
+</html>
